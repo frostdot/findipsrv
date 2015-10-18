@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'findipsrv'
+FindIPSrv::CLI.start

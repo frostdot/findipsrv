@@ -27,7 +27,7 @@ module FindIPSrv
       begin
         @udp_sock.send("find", 0, "255.255.255.255", port)
         if t.join(timeout).nil?
-          puts "Could not find..."
+          #puts "Could not find..."
           raise Interrupt
         end
       rescue Interrupt

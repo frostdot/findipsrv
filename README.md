@@ -4,15 +4,7 @@ Find IP Service
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'findipsrv', github: 'frostdot/findipsrv'
-```
-
-And then execute:
-
-    $ bundle install
+    $ gem install findipsrv*.gem
 
 ## Usage
 
